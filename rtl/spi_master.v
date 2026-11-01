@@ -20,7 +20,6 @@ module spi_master
     output reg busy
 );
 
-//////////////////DO NOT MAKE ANY CHANGES ABOVE THIS LINE //////////////////
 
 // ============================================================
 // clog2: Elaboration-time ceiling-log-2 helper.
@@ -322,6 +321,5 @@ always @(posedge clk_50MHz or negedge rst_n) begin
     end
 end
 
-//////////////////DO NOT MAKE ANY CHANGES BELOW THIS LINE //////////////////
 
 endmodule
